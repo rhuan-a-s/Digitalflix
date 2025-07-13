@@ -1,11 +1,18 @@
 import CardFilme from "./CardFilme";
-export default function Catalogo() {
+import movie1 from "../assets/image/movie1.jpg";
+import movie2 from "../assets/image/movie2.jpg";
+import movie3 from "../assets/image/movie3.jpg";
+import movie4 from "../assets/image/movie4.jpg";
+import movie5 from "../assets/image/movie5.jpg";
+import movie6 from "../assets/image/movie6.jpg";
+
+function Catalogo() {
   const filmes = [
     {
       id: 1,
       titulo: "Ação Explosiva",
       genero: "Ação",
-      imagem: "../assets/image/movie1.jpg",
+      imagem: movie1,
       nota: 7.7,
       ano: 2014,
     },
@@ -13,7 +20,7 @@ export default function Catalogo() {
       id: 2,
       titulo: "Romance Eterno",
       genero: "Romance",
-      imagem: "../assets/image/movie2.jpg",
+      imagem: movie2,
       nota: 5.4,
       ano: 2019,
     },
@@ -21,7 +28,7 @@ export default function Catalogo() {
       id: 3,
       titulo: "Futuro Cyberpunk",
       genero: "Ficção Cientifica",
-      imagem: "../assets/image/movie3.jpg",
+      imagem: movie3,
       nota: 9.7,
       ano: 2023,
     },
@@ -29,7 +36,7 @@ export default function Catalogo() {
       id: 4,
       titulo: "Terror Noturno",
       genero: "Terror",
-      imagem: "../assets/image/movie4.jpg",
+      imagem: movie4,
       nota: 8.2,
       ano: 2025,
     },
@@ -37,7 +44,7 @@ export default function Catalogo() {
       id: 5,
       titulo: "Comédia Hilária",
       genero: "Comédia",
-      imagem: "../assets/image/movie5.jpg",
+      imagem: movie5,
       nota: 3.7,
       ano: 2024,
     },
@@ -45,7 +52,7 @@ export default function Catalogo() {
       id: 6,
       titulo: "Aventura Mágica",
       genero: "Fantasia",
-      imagem: "../assets/image/movie6.jpg",
+      imagem: movie6,
       nota: 9.6,
       ano: 2022,
     },
@@ -62,3 +69,4 @@ export default function Catalogo() {
     </section>
   );
 }
+export default Catalogo;
