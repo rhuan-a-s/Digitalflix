@@ -22,10 +22,10 @@ function App() {
             <MagnifyingGlass size={22} />
             <input className='border-0 outline-0' type="text" placeholder='Buscar filmes...' />
           </div>
-          <button>
+          <button className='cursor-pointer'>
             <User size={22} />
           </button>
-          <button>
+          <button className='cursor-pointer'>
             <SignIn size={22} />
           </button>
         </div>
@@ -41,11 +41,11 @@ function App() {
               <h1 className='font-bold text-white text-4xl'>Ação Explosiva</h1>
               <p className='text-white text-xl'>Ação</p>
               <div className="gap-4 flex mb-6">
-                <button className='bg-[#E02D2D] text-white font-bold w-fit px-4 py-3 rounded-md flex gap-4 items-center'>
+                <button className='cursor-pointer bg-[#E02D2D] text-white font-bold w-fit px-4 py-3 rounded-md flex gap-4 items-center'>
                   <Play size={22} />
                   <span>Assitir Agora</span>
                 </button>
-                <button className='text-[#C80D66] font-bold w-fit px-4 py-3 rounded-md border'>Mais Informações</button>
+                <button className='cursor-pointer text-[#C80D66] font-bold w-fit px-4 py-3 rounded-md border'>Mais Informações</button>
               </div>
             </div>
           </div>
