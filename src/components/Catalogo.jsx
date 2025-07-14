@@ -59,9 +59,9 @@ function Catalogo() {
   ];
 
   return (
-    <section>
-      <h1>Catálogo de Filmes</h1>
-      <div className="grade-de-filmes">
+    <section className="p-6 bg-black">
+      <h1 className="text-2xl font-bold mb-6 text-white p-8">Catálogo de Filmes</h1>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-4">
         {filmes.map(filme => (
           <CardFilme key={filme.id} filme={filme} />
         ))}
