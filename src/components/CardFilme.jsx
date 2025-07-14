@@ -1,10 +1,10 @@
 function CardFilme({ filme }) {
   return (
-    <div className="bg-zinc-800 text-white p-4 rounded-x1 shadow-md hover:scale-105 transition-transform duration-300">
+    <div className="bg-zinc-800 text-white p-4 rounded-x1 shadow-md">
       <img
         src={filme.imagem}
         alt={filme.titulo}
-        className="w-full h-auto rounded-md mb-4"
+        className="h-auto rounded-md mb-4"
       />
 
       <h2 className="text-xl front-semibold">{filme.ano}</h2>
